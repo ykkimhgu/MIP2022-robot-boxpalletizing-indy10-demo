@@ -35,20 +35,20 @@ Linux 환경에서 ROS의 Rviz, Gazebo, Moveit 패키지를 활용하여 프로�
 
 ## Contents
 * ### Tutorial: How to use INDY-10
-  * [Reference Link](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/Indy10/Indy10_Manual.md)
+  * [Reference Link](https://github.com/ykkimhgu/MIP2022-robot-boxpalletizing-indy10-demo/blob/main/Indy10/Indy10_Manual.md)
 
 * ### Tutorial: How to use UR5e
-  * [Reference Link](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/UR5e/UR5e_Maunal.md)
+  * [Reference Link](https://github.com/ykkimhgu/MIP2022-robot-boxpalletizing-indy10-demo/blob/main/UR5e/UR5e_Maunal.md)
 
 * ### Tutorial: How to use vision sensor
-  * [Depth Camera](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/Depth_Camera_Manual.md)
-  * [USB Camera](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/Webcam_Manual.md)
+  * [Depth Camera](https://github.com/ykkimhgu/MIP2022-robot-boxpalletizing-indy10-demo/blob/main/Manual/Depth_Camera_Manual.md)
+  * [USB Camera](https://github.com/ykkimhgu/MIP2022-robot-boxpalletizing-indy10-demo/blob/main/Manual/Webcam_Manual.md)
   
 * ### Tutorial: Palletizing (Demo)
-  * [Reference Link](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/Indy10/Demo_Palletizing.md)
+  * [Reference Link](https://github.com/ykkimhgu/MIP2022-robot-boxpalletizing-indy10-demo/blob/main/Indy10/Demo_Palletizing.md)
 
 * ### Tutorial: Classification & Pick-Place (Demo)
-  * [Reference Link](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/UR5e/Demo_Classification_Automate_using_QR_Code.md)
+  * [Reference Link](https://github.com/ykkimhgu/MIP2022-robot-boxpalletizing-indy10-demo/blob/main/UR5e/Demo_Classification_Automate_using_QR_Code.md)
 
 * ### TroubleShooting
-  * [Reference Link](https://github.com/Yjinsu/MIP-Robot_Control_using_ROS/blob/main/Trouble_Shooting.md)
+  * [Reference Link](https://github.com/ykkimhgu/MIP2022-robot-boxpalletizing-indy10-demo/blob/main/Manual/Trouble_Shooting.md)
