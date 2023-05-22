@@ -1,0 +1,25 @@
+<launch>
+	
+	<!--<param name = "robot_description" command = "cat $(find indy10_description)/urdf/indy10.urdf"/>-->
+	<param name = "robot_description" command = "$(find xacro)/xacro --inorder '$(find indy10_description)/urdf/indy10.xacro'" />
+    
+
+	<!--<node name = "joint_state_publisher" pkg = "joint_state_publisher" type = "joint_state_publisher">
+        <param name = "use_gui" value = "TRUE"/>
+    </node>--> 
+
+
+	<!--<node name = "robot_state_publisher" pkg = "robot_state_publisher" type = "state_publisher"/>-->
+	<node name = "robot_state_publisher" pkg = "robot_state_publisher" type = "robot_state_publisher"/>
+    
+	<arg name="robot_name" default="NRMK-Indy10" />
+	<arg name="robot_redundancy" default="false" />
+  <include file="$(find indy_driver)/launch/robot_interface_download_indy.launch" >
+    <arg name="robot_ip" value="$(arg robot_ip)"/>
+    <arg name="robot_name" value="$(arg robot_name)"/>
+	  <arg name="robot_redundancy" value="$(arg robot_redundancy)"/>	  
+  </include>
+
+	<node name = "rviz" pkg = "rviz" type = "rviz" args = "-d $(find indy10_description)/rviz_config/indy10.rviz"/>
+	<!-- <node name = "rviz" pkg = "rviz" type = "rviz" /> -->
+</launch>
